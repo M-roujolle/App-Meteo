@@ -4,9 +4,27 @@
 
 .barre {
     width: 82vh;
+    margin: auto;
 }
 
 .loupe {
     position: relative;
     left: -60px;
+}
+
+.gauche {
+    background-color: rgba(182, 199, 206, 0.5);
+}
+
+body {
+    background: url(../img/201-2011064_snow-wallpaper-4k.jpg);
+}
+
+.droite {
+    background-color: rgba(182, 199, 206, 0.5);
+}
+
+.icon {
+    height: 3rem;
+    width: auto;
 }
