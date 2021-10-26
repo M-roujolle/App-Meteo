@@ -1,0 +1,12 @@
+.navbar {
+    background-color: purple;
+}
+
+.barre {
+    width: 82vh;
+}
+
+.loupe {
+    position: relative;
+    left: -60px;
+}
