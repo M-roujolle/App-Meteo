@@ -1,5 +1,5 @@
 .navbar {
-    background-color: purple;
+    background-color: #342C67;
 }
 
 .barre {
@@ -14,6 +14,7 @@
 
 .card {
     background-color: rgba(182, 199, 206, 0.5);
+    border-radius: 10px;
 }
 
 body {
@@ -40,6 +41,6 @@ body {
 }
 
 .meudah {
-    background-color: purple;
+    background-color: #342C67;
 
 }
