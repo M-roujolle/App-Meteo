@@ -1,0 +1,44 @@
+.navbar {
+    background-color: #452646;
+}
+
+.barre {
+    width: 82vh;
+    margin: auto;
+}
+
+.loupe {
+    position: relative;
+    left: -60px;
+}
+
+.card {
+    background-color: rgba(182, 199, 206, 0.5);
+
+}
+
+body {
+    background: url(../img/sunlandscape.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.droite {
+    background-color: rgba(182, 199, 206, 0.5);
+}
+
+.icon {
+    height: 3rem;
+    width: auto;
+}
+
+.fav {
+    height: 5rem;
+}
+
+.ny {
+    background-color: #452646;
+
+}
