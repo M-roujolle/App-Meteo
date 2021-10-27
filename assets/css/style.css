@@ -12,7 +12,7 @@
     left: -60px;
 }
 
-.gauche {
+.card {
     background-color: rgba(182, 199, 206, 0.5);
 }
 
@@ -29,3 +29,15 @@ body {
     width: auto;
 }
 
+.card2 {
+    
+}
+
+.fav {
+    height: 5rem;
+}
+
+.meudah {
+    background-color: purple;
+
+}

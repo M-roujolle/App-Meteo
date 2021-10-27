@@ -18,103 +18,205 @@
     <title>Météo LHP7</title>
 </head>
 
-<body>
+<body class="text-white">
 
-    <nav class="navbar navbar-expand sticky-top m-auto d-flex">
-        <div class="row col-lg-4 col-4">
-            <a class="navbar-brand" href="#">
-                <img src="assets/img/castor.png" alt="" width="56px" height="49px">
-            </a>
-        </div>
-        <div>
+    <nav class="navbar navbar-expand-lg navbar-light m-auto">
+
+        <div class="container">
+            <img class="pe-5" src="assets/img/Castor.png" height="50vh" width="auto">
+
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-
             </button>
-            <form class="barre d-flex">
-                <input class="form-control me-2" type="search" placeholder="Recherche d'une ville" aria-label="Search">
-                <button class=" loupe btn btn-outline" type="submit">
-                    <img src="assets/img/search-solid-removebg-preview.png" height="25px" width="25px">
-                </button>
-            </form>
-        </div>
-        <div class="geoloc col-lg-2 col-2 d-flex text-white">
-            <i class="fas fa-map-marker-alt fs-5"> Le Havre </i>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                </ul>
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text" id="addon-wrapping"><i class="bi bi-search"></i></span>
+                    <input type="text" class="form-control" placeholder="Chercher une ville" aria-label="Username"
+                        aria-describedby="addon-wrapping">
+                </div>
 
+            </div>
         </div>
     </nav>
+    <div class="row justify-content-center m-auto">
+        <div class="col-lg-10">
 
-                                <!-- PREMIER ROW -->
-    <div class="row d-flex text-white justify-content-around  pt-5">
-        <div class="gauche col-4 rounded">
-            <div class="row">
-                <div class="col text-center">
-                    <img src="assets/img/day_partial_cloud-removebg-preview.png" class="mt-4" height="150vh"
-                        width="150vh">
+            <!-- PREMIER ROW -->
+            <div class="row d-flex text-white justify-content-between pt-5 m-auto">
+                <div class="card col-4 rounded">
+                    <div class="row">
+                        <div class="col text-center">
+                            <img src="assets/img/day_partial_cloud-removebg-preview.png" class="mt-4" height="150vh"
+                                width="150vh">
+                        </div>
+                        <div class="col text-center">
+
+                            <p class="fs-4 fw-bold">Amsterdam</p>
+                            <p class="fs-4 fw-bold">11°C</p>
+                            <p><i class="bi bi-droplet"></i> 6%</p>
+                            Lun. 25 oct. 2021<br />
+                            10:38
+                        </div>
+                    </div>
                 </div>
-                <div class="col text-center">
 
-                    <p class="fs-4 fw-bold">Amsterdam</p>
-                    <p class="fs-4 fw-bold">11°C</p>
-                    <p><i class="bi bi-droplet"></i> 6%</p>
-                    Lun. 25 oct. 2021<br />
-                    10:38
+
+                <div class="card col-4 rounded pt-3">
+                    <div class="row justify-content-evenly">
+                        <div class="col-5"><i class=" display-6 bi bi-brightness-high"> </i> <span class="fs-3">
+                                8:36</span>
+                        </div>
+                        <div class="col-5"><i class="bi bi-moon-fill display-6"> </i><span class="display-6"> 18:49
+                        </div>
+                    </div>
+                    <div class="row justify-content-evenly pt-3">
+                        <div class="col-5"><i class="bi bi-wind display-6"> </i> <span class="fs-3"> 14 km/h</div>
+                        <div class="col-5"><i class="bi bi-fan display-6"></i><span class="fs-3">AQI Très bonne
+                                (2)</span>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-        </div>
+            <!-- FIN PREMIER ROW -->
 
+            <!--DEBUT DEUXIEME ROW-->
 
-        <div class="droite col-4 rounded pt-3">
-            <div class="row justify-content-evenly">
-                <div class="col-5"><i class=" display-6 bi bi-brightness-high"> </i> <span class="fs-3"> 8:36</span></div>
-                <div class="col-5"><i class="bi bi-moon-fill display-6"> </i><span class="display-6"> 18:49</div>
+            <div class="row d-flex justify-content-between pt-5 m-auto">
+
+                <div class="card col-2 border border-primary text-center carre1">
+                    <p class="fs-4 fw-bold">Mardi</p>
+                    <p>
+                        <div class="col text-center">
+                            <img src="assets/img/day_partial_cloud-removebg-preview.png" class="mt-4" height="110vh"
+                                width="110vh">
+                        </div>
+                    </p>
+                    <p>15°C</p>
+                    <p><i class="bi bi-droplet"></i> 11%</p>
+                </div>
+
+                <div class="card col-2 border border-warning text-center carre1">
+                    <p class="fs-4 fw-bold">Mercredi</p>
+                    <p>
+                        <div class="col text-center">
+                            <img src="assets/img/day_partial_cloud-removebg-preview.png" class="mt-4" height="110vh"
+                                width="110vh">
+                        </div>
+                    </p>
+                    <p>16°C</p>
+                    <p><i class="bi bi-droplet"></i> 24%</p>
+                </div>
+
+                <div class="card col-2 border border-success text-center carre1">
+                    <p class="fs-4 fw-bold">Jeudi</p>
+                    <p>
+                        <div class="col text-center">
+                            <img src="assets/img/day_clear-removebg-preview.png" class="mt-4" height="110vh"
+                                width="110vh">
+                        </div>
+                    </p>
+                    <p>16°C</p>
+                    <p><i class="bi bi-droplet"></i>12%</p>
+                </div>
+
+                <div class="card col-2 border border-primary text-center carre1">
+                    <p class="fs-4 fw-bold">Vendredi</p>
+                    <p>
+                        <div class="col text-center">
+                            <img src="assets/img/day_partial_cloud-removebg-preview.png" class="mt-4" height="110vh"
+                                width="110vh">
+                        </div>
+                    </p>
+                    <p>16°C</p>
+                    <p><i class="bi bi-droplet"></i> 24%</p>
+                </div>
+
+                <div class="card col-2 border border-warning text-center carre1">
+                    <p class="fs-4 fw-bold">Samedi</p>
+                    <p>
+                        <div class="col text-center">
+                            <img src="assets/img/rain-removebg-preview.png" class="mt-4" height="110vh" width="110vh">
+                        </div>
+                    </p>
+                    <p>12°C</p>
+                    <p><i class="bi bi-droplet"></i> 74%</p>
+                </div>
+
             </div>
-            <div class="row justify-content-evenly pt-3">
-                <div class="col-5"><i class="bi bi-wind display-6"> </i> <span class="fs-3"> 14 km/h</div>
-                <div class="col-5"><i class="bi bi-fan display-6"></i><span class="fs-3">AQI Très bonne (2)</span></div>
-            </div>
 
+
+
+            <!-- TITRE FAVORIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII -->
+
+            <div class="row d-flex text-white pt-5 m-auto">
+                <div class="col m-auto">
+                    <div class="h1 pt-5 col-2">Mes favoris</div>
+                </div>
+
+                <!-- CARTES FAVORIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIS -->
+
+
+                <div class="row pt-5 pb-5 m-auto">
+
+                    <div class="card fav col-2 rounded border border-primary me-5">
+                        <div class="row card2">
+
+                            <p class="col-lg-6 fs-6 fw-bold">Paris</p>
+
+                            <p class="col-lg-6 text-end"><img src="assets/img/day_partial_cloud-removebg-preview.png"
+                                    class="img-fluid"></p>
+                        </div>
+                    </div>
+
+
+                    <div class="card fav col-2 rounded border border-primary me-5">
+                        <div class="row card2">
+
+                            <p class="col-lg-6 fs-6 fw-bold">Paris</p>
+
+                            <p class="col-lg-6 text-end"><img src="assets/img/day_partial_cloud-removebg-preview.png"
+                                    class="img-fluid"></p>
+                        </div>
+                    </div>
+
+                    <div class="card fav col-2 rounded border border-primary">
+                        <div class="row card2">
+
+                            <p class="col-lg-6 fs-6 fw-bold">Paris</p>
+
+                            <p class="col-lg-6 text-end"><img src="assets/img/day_partial_cloud-removebg-preview.png"
+                                    class="img-fluid"></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
-                                <!-- FIN PREMIER ROW -->
-    <div class="row d-flex text-white justify-content-around  pt-5">
-        <div class="gauche col-4 rounded">
-            <div class="row">
-                <div class="col text-center">
-                    <img src="assets/img/day_partial_cloud-removebg-preview.png" class="mt-4" height="150vh"
-                        width="150vh">
-                </div>
-                <div class="col text-center">
 
-                    <p class="fs-4 fw-bold">Amsterdam</p>
-                    <p class="fs-4 fw-bold">11°C</p>
-                    <p><i class="bi bi-droplet"></i> 6%</p>
-                    Lun. 25 oct. 2021<br />
-                    10:38
-                </div>
+
+    <!-- FOOTEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEER -->
+
+
+    <footer class="meudah m-auto">
+        <div class="row m-auto">
+            <div class="col-12 text-white text-center pt-5 pb-5">
+                © 2021 AAMeteo
+                <!-- POUR FAIRE LE COPYRIGHT MAINTENIT ALT FAIRE 0169 ET RELACHER ALT -->
             </div>
         </div>
-
-
-        <div class="droite col-4 rounded pt-3">
-            <div class="row justify-content-evenly">
-                <div class="col-5"><i class=" display-6 bi bi-brightness-high"> </i> <span class="fs-3"> 8:36</span></div>
-                <div class="col-5"><i class="bi bi-moon-fill display-6"> </i><span class="display-6"> 18:49</div>
-            </div>
-            <div class="row justify-content-evenly pt-3">
-                <div class="col-5"><i class="bi bi-wind display-6"> </i> <span class="fs-3"> 14 km/h</div>
-                <div class="col-5"><i class="bi bi-fan display-6"></i><span class="fs-3">AQI Très bonne (2)</span></div>
-            </div>
-
-        </div>
-    </div>
+    </footer>
 
 
 
 
-    
+
 
 
 
