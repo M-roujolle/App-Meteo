@@ -29,12 +29,14 @@ body {
     width: auto;
 }
 
-.card2 {
-    
-}
 
 .fav {
     height: 5rem;
+}
+
+.myImg {
+    height: 100%;
+    width: auto;
 }
 
 .meudah {
